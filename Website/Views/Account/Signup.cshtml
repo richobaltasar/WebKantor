@@ -1,0 +1,66 @@
+﻿@{
+    Layout = "_LayoutLogin";
+    ViewBag.Title = "Signup";
+}
+<input type="button" value="Back to Login Page" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("Login")';" style="margin:10px 10px 10px 10px;">
+<div class="content">
+    <div class="container" style="margin-top:-50px;">
+        <div class="row">
+            <div class="col-md-6">
+                @*<img src="~/assets/img/account/forgot-password-amico-1951.png" alt="Image" class="img-fluid" />*@
+                <img src="~/assets/img/account/Signup.png" alt="Image" class="img-fluid"/>
+            </div>
+            <div class="col-md-6 contents">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="mb-4">
+                            <h3>Membership Application</h3>
+                            <p class="mb-4 text-dark">To apply for membership please complete all questions.</p>
+                        </div>
+                        <form action="#" method="post">
+                            <div class="form-group first">
+                                <label for="username">Nama Lengkap</label>
+                                <input type="text" class="form-control" id="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="username">Contact Person</label>
+                                <input type="text" class="form-control" id="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="username">Nama Perusahaan</label>
+                                <input type="text" class="form-control" id="username">
+                            </div>
+                            <div class="form-group last mb-4">
+                                <label for="username"></label>
+                                <input type="text" class="form-control" id="username">
+                            </div>
+
+
+                            <div class="form-group first">
+                                <label for="email">email</label>
+                                <input type="text" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control" id="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password">
+
+                            </div>
+                            <div class="form-group last mb-4">
+                                <label for="password">Confirmation</label>
+                                <input type="password" class="form-control" id="password">
+                            </div>
+                            <input type="submit" value="Submit" class="btn btn-block btn-primary">
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
